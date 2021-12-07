@@ -1,0 +1,5 @@
+CREATE TABLE PRODUCT (
+    productId   INTEGER      NOT NULL AUTO_INCREMENT,
+    category  VARCHAR(128) NOT NULL,
+    PRIMARY KEY (id)
+);

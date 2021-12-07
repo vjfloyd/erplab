@@ -1,0 +1,6 @@
+2021-12-03 11:48:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUCT" not found; SQL statement:
+select product0_.product_id as product_1_0_0_, product0_.category as category2_0_0_ from product product0_ where product0_.product_id=? [42102-200]
+2021-12-03 12:16:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUCT" not found; SQL statement:
+select product0_.product_id as product_1_0_0_, product0_.category as category2_0_0_ from product product0_ where product0_.product_id=? [42102-200]
