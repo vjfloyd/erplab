@@ -1,0 +1,32 @@
+server:
+  port: 8282
+#logging:
+#  level:
+#    org.springframework.web: TRACE
+#    com.company: TRACE
+#  file: /Users/victor/jobs/erplab.log
+#  pattern:
+#    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+#    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+spring:
+  sql:
+   init:
+    mode: always
+  datasource:
+#    url: jdbc:h2:file:~/jobs-search/erplab/db
+    url: jdbc:h2:mem:erpdb
+    username: sa
+    password: 1234
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: true
+  h2:
+    console.enabled: true
+api:
+  third-services:
+    product-api:
+      base-url: https://61abf188264ec200176d437c.mockapi.io
+      time-out: 3000
+
+debug: true
