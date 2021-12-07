@@ -12,7 +12,7 @@
 	<artifactId>erplab</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>erplab</name>
-	<description>ERP Demo</description>
+	<description>ERP Lab</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
